@@ -1,0 +1,126 @@
+ 
+.trr{
+  border:2px solid black
+}
+.trr:hover
+{
+  background-color: gray;
+}
+th{
+width:15%;
+height: 10px;
+font-family:'Times New Roman', Times, serif;
+font-size:1.5em;
+}
+.itstd{
+  padding:5%;
+  color: rgb(0, 0, 0);
+  width: 20%;
+}
+.itsrow:hover{
+  background-color: rgb(218, 215, 215);
+}
+table, th, td {
+  border: 1px solid rgb(0, 0, 0);
+  /* border-collapse: collapse; */
+  border-radius: 10px;
+}
+
+thead, tbody { 
+  
+  background-color: #cdced3;
+  background-image: none;
+  display: block;
+  /* margin-left: -1300px;
+  margin-right: 150px; */
+}
+thead{
+  background-color: #8080aa;
+}
+.itsimage{
+  margin-left: 39%;
+}
+
+
+h1{
+  text-align: center;
+  padding-left: -15px;
+  font-size: 3.5em;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(5, 57, 148);
+  justify-content: center;
+}
+.heading{
+  color: bisque;
+}
+tbody{
+    height: 500px;       /* Just for the demo          */
+    overflow-y: auto;    /* Trigger vertical scroll    */
+    overflow-x:hidden;
+   
+}
+.filt{
+  font-size: medium;
+  font-weight: bold;
+  /* position: relative;
+  bottom:  2.7rem; */
+  display: inline-block;
+  padding: 1rem;
+}
+.count{
+  width: 250px;
+  background-color:#EFF5F5;
+  
+  margin-left: 20px;
+  padding-left: 10px;
+  border-radius: 10px;
+  height: 4rem;
+  padding-top: -10px;
+}
+.nav{
+  background-color:#EFF5F5;
+  border-radius: 10px;
+  display: inline-block;
+  width: 95%;
+  height: 74px;
+  position: relative;
+  /* padding: 1rem */
+  margin: 1rem;
+
+}
+.data{
+  background-color: white;
+  opacity: 0.8;
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+  font-weight: 600;
+
+}
+
+
+body {
+
+  background-image: url("/public/images/back.jpg");
+  background-repeat: no-repeat;
+  background-size:  1536px 864px;
+}
+.table{
+  width: 70%;
+  margin: 7%;
+  border: 1px solid black;
+ }
+ img{
+  width:200px;
+  height:200px;
+ }
+
+ .card{
+  /* margin:0% 10% 10%;
+  width:40%; */
+  margin: 0% 10% 10%;
+  width: 100;
+  background-color: white;
+  width: 85%;
+  opacity: 0.8;
+ }
